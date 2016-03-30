@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>slurve.js</title>
+
+  <link rel="stylesheet" href="assets/css/slurve.css" media="screen" type="text/css" />
+  <link rel="stylesheet" href="assets/css/slurve-example-styles.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    
+    <h1>slurve.js Examples</h1>
+
+    <!-- slurve definitions -->
+    <svg version="1.1" class="slurve-definitions" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="slurve-gradient-1" gradientTransform="rotate(0)">
+                <stop offset="5%" stop-color="#F44336" />
+                <stop offset="95%" stop-color="#9C27B0" />
+            </linearGradient>
+            <linearGradient id="slurve-gradient-2" gradientTransform="rotate(0)">
+                <stop offset="5%" stop-color="#9C27B0" />
+                <stop offset="95%" stop-color="#3F51B5" />
+            </linearGradient>
+            <linearGradient id="slurve-gradient-3" gradientTransform="rotate(0)">
+                <stop offset="5%" stop-color="#3F51B5" />
+                <stop offset="95%" stop-color="#03A9F4" />
+            </linearGradient>
+            <linearGradient id="slurve-gradient-4" gradientTransform="rotate(0)">
+                <stop offset="5%" stop-color="#03A9F4" />
+                <stop offset="95%" stop-color="#009688" />
+            </linearGradient>
+            <linearGradient id="slurve-gradient-5" gradientTransform="rotate(0)">
+                <stop offset="5%" stop-color="#009688" />
+                <stop offset="95%" stop-color="#8BC34A" />
+            </linearGradient>
+            <linearGradient id="slurve-gradient-6" gradientTransform="rotate(0)">
+                <stop offset="5%" stop-color="#8BC34A" />
+                <stop offset="95%" stop-color="#FFEB3B" />
+            </linearGradient>
+            <linearGradient id="slurve-gradient-7" gradientTransform="rotate(0)">
+                <stop offset="5%" stop-color="#FFEB3B" />
+                <stop offset="95%" stop-color="#FF9800" />
+            </linearGradient>
+            <linearGradient id="slurve-gradient-8" gradientTransform="rotate(0)">
+                <stop offset="5%" stop-color="#FF9800" />
+                <stop offset="95%" stop-color="#F44336" />
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <!-- slurve examples -->
+    <h3 id="example-sharp">Sharp Corners</h3>
+    <div class="slurve card" data-slurve="-15,0 0,0 0,0 0,0" data-slurve-classes="slurve-style-1"><p>1</p></div>
+    <div class="slurve card" data-slurve="0,-15 0,0 0,0 0,0" data-slurve-classes="slurve-style-2"><p>2</p></div>
+    <div class="slurve card" data-slurve="0,0 0,-15 0,0 0,0" data-slurve-classes="slurve-style-3"><p>3</p></div>
+    <div class="slurve card" data-slurve="0,0 15,0 0,0 0,0" data-slurve-classes="slurve-style-4"><p>4</p></div>
+    <div class="slurve card" data-slurve="0,0 0,0 15,0 0,0" data-slurve-classes="slurve-style-5"><p>5</p></div>
+    <div class="slurve card" data-slurve="0,0 0,0 0,15 0,0" data-slurve-classes="slurve-style-6"><p>6</p></div>
+    <div class="slurve card" data-slurve="0,0 0,0 0,0 0,15" data-slurve-classes="slurve-style-7"><p>7</p></div>
+    <div class="slurve card" data-slurve="0,0 0,0 0,0 -15,0" data-slurve-classes="slurve-style-8"><p>8</p></div>
+
+    <h3 id="example-curved">Curved Corners</h3>
+    <div class="slurve card" data-slurve="-15,0,10 0,0 0,0 0,0" data-slurve-classes="slurve-style-gradient-1"><p>9</p></div>
+    <div class="slurve card" data-slurve="0,-15,10 0,0 0,0 0,0" data-slurve-classes="slurve-style-gradient-2"><p>10</p></div>
+    <div class="slurve card" data-slurve="0,0 0,-15,10 0,0 0,0" data-slurve-classes="slurve-style-gradient-3"><p>11</p></div>
+    <div class="slurve card" data-slurve="0,0 15,0,10 0,0 0,0" data-slurve-classes="slurve-style-gradient-4"><p>12</p></div>
+    <div class="slurve card" data-slurve="0,0 0,0 15,0,10 0,0" data-slurve-classes="slurve-style-gradient-5"><p>13</p></div>
+    <div class="slurve card" data-slurve="0,0 0,0 0,15,10 0,0" data-slurve-classes="slurve-style-gradient-6"><p>14</p></div>
+    <div class="slurve card" data-slurve="0,0 0,0 0,0 0,15,10" data-slurve-classes="slurve-style-gradient-7"><p>15</p></div>
+    <div class="slurve card" data-slurve="0,0 0,0 0,0 -15,0,10" data-slurve-classes="slurve-style-gradient-8"><p>16</p></div>
+    
+    <h3 id="example-combo">Sharp + Curved</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="slurve card-fluid" data-slurve="-25,0 0,-20 -25,0 0,0" data-slurve-classes="slurve-style-4">
+                <h3>Hello</h3>
+                <p>I'm a trapezoidal-looking Slurve.</p>
+                <ul>
+                    <li>I am blue</li>
+                    <li>I have bullets</li>
+                    <li>I am responsive</li>
+                    <li>I like slurve.js</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="slurve card-fluid" data-slurve="0,-10 0,0,50 0,10 0,0,50" data-slurve-classes="slurve-style-6">
+                <h3>Hello</h3>
+                <p>I don't know what you call me. I'm still a Slurve though, so that's cool.</p>
+                <div class="slurve card" data-slurve="0,0 0,0,20 0,0,25 0,0,30" data-slurve-classes="slurve-style-1"><p>I'm Meta</p></div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="assets/js/slurve.js"></script>
+
+</body>
+
+</html>

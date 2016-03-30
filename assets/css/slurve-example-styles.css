@@ -1,0 +1,62 @@
+.wrapper {
+  margin: 100px;
+}
+
+.card,
+.card-fluid {
+  margin: 20px 20px 20px 0;
+  padding: 10px;
+  width: 70px;
+  display: inline-block;
+}
+
+.card-fluid {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  color: #000;
+}
+
+.card-fluid h3 {
+  margin-top: 5px;
+}
+
+.card p {
+  color: #000;
+  font-size: 11pt;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.slurve-style-1 { fill: #F44336; }
+.slurve-style-2 { fill: #9C27B0; }
+.slurve-style-3 { fill: #3F51B5; }
+.slurve-style-4 { fill: #03A9F4; }
+.slurve-style-5 { fill: #009688; }
+.slurve-style-6 { fill: #8BC34A; }
+.slurve-style-7 { fill: #FFEB3B; }
+.slurve-style-8 { fill: #FF9800; }
+
+.slurve-style-gradient-1 { fill: url(#slurve-gradient-1); }
+@-moz-document url-prefix() { .slurve-style-gradient-1 { fill: url(../../#slurve-gradient-1); }}
+
+.slurve-style-gradient-2 { fill: url(#slurve-gradient-2); }
+@-moz-document url-prefix() { .slurve-style-gradient-2 { fill: url(../../#slurve-gradient-2); }}
+
+.slurve-style-gradient-3 { fill: url(#slurve-gradient-3); }
+@-moz-document url-prefix() { .slurve-style-gradient-3 { fill: url(../../#slurve-gradient-3); }}
+
+.slurve-style-gradient-4 { fill: url(#slurve-gradient-4); }
+@-moz-document url-prefix() { .slurve-style-gradient-4 { fill: url(../../#slurve-gradient-4); }}
+
+.slurve-style-gradient-5 { fill: url(#slurve-gradient-5); }
+@-moz-document url-prefix() { .slurve-style-gradient-5 { fill: url(../../#slurve-gradient-5); }}
+
+.slurve-style-gradient-6 { fill: url(#slurve-gradient-6); }
+@-moz-document url-prefix() { .slurve-style-gradient-6 { fill: url(../../#slurve-gradient-6); }}
+
+.slurve-style-gradient-7 { fill: url(#slurve-gradient-7); }
+@-moz-document url-prefix() { .slurve-style-gradient-7 { fill: url(../../#slurve-gradient-7); }}
+
+.slurve-style-gradient-8 { fill: url(#slurve-gradient-8); }
+@-moz-document url-prefix() { .slurve-style-gradient-8 { fill: url(../../#slurve-gradient-8); }}

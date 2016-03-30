@@ -1,0 +1,18 @@
+.slurve {
+  position: relative;
+}
+
+.slurve > * {
+  position: inherit;
+}
+
+.slurve-svg {
+  position: absolute;
+}
+
+.slurve-definitions {
+  width: 0;
+  height: 0;
+  position: absolute;
+  z-index: -999;
+}
