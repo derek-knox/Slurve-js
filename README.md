@@ -39,4 +39,4 @@ Chrome, Firefox, Safari, Edge, IE9+
 ##Designed and Developed By
 Derek Knox | Braindrop Labs
 
-[@derekknox]: https://twitter.com/derekknox
+[@derekknox](https://twitter.com/derekknox)
