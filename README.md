@@ -1,8 +1,8 @@
 #slurve.js
 
-Slurve is slants + curves. Create beautiful slants and curves in web UIs .
+Slurve is slants + curves. Create beautiful slants and curves in web UIs.
 
-View the overview article at www.http://derekknox.com/articles/slurve-js/
+View the overview article at www.derekknox.com/articles/slurve-js/
 
 ![Image](assets/images/slurve-example.png)
 
