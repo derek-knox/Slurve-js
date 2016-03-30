@@ -9,6 +9,7 @@ View the overview article at www.derekknox.com/articles/slurve-js/
 ##*Notes
 
 Slurve has wide browser support as its core dependency is basic SVG.
+
 Chrome, Firefox, Safari, Edge, IE9+
 
 ##License
