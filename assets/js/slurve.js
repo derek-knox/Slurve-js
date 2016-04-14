@@ -2,8 +2,8 @@
  * Slurve | slurve.js: Beautiful Slants and Curves in Web UIs
  * MIT license https://opensource.org/licenses/MIT
  * Copyright (c) 2016 Derek Knox | Braindrop Labs
- * Version: 0.9 (beta)
- * @author Derek Knox http://derekknox.com
+ * Version: 1.0
+ * @author Derek Knox http://derekknox.com @derekknox
  */
 
 ;(function() {
