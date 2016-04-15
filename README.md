@@ -7,6 +7,7 @@ View the website at www.slurvejs.com
 ![Image](assets/images/slurve-example-site-examples.png)
 
 View the initial overview article at www.derekknox.com/articles/slurve-js/
+
 ![Image](assets/images/slurve-example.png)
 
 ##*Notes
