@@ -1,14 +1,17 @@
 #slurve.js
 
-Slurve is slants + curves. Create beautiful slants and curves in web UIs.
+Slant + Curve = Slurve. slurve.js - Beautiful Slants and Curves in Web UIs
 
-View the overview article at www.derekknox.com/articles/slurve-js/
+View the website at www.slurvejs.com
+![Image](assets/images/slurve-example-site-basics.png)
+![Image](assets/images/slurve-example-site-examples.png)
 
+View the initial overview article at www.derekknox.com/articles/slurve-js/
 ![Image](assets/images/slurve-example.png)
 
 ##*Notes
 
-Slurve has wide browser support as its core dependency is basic SVG.
+slurve.js has wide browser support as its core dependency is basic SVG.
 
 Chrome, Firefox, Safari, Edge, IE9+
 
