@@ -1,4 +1,4 @@
-#slurve.js
+# slurve.js
 
 Slant + Curve = Slurve. slurve.js - Beautiful Slants and Curves in Web UIs
 
@@ -10,13 +10,13 @@ View the initial overview article at www.derekknox.com/articles/slurve-js/
 
 ![Image](assets/images/slurve-example.png)
 
-##*Notes
+## *Notes
 
 slurve.js has wide browser support as its core dependency is basic SVG.
 
 Chrome, Firefox, Safari, Edge, IE9+
 
-##License
+## License
 	
 	The MIT License (MIT)
 
@@ -40,7 +40,7 @@ Chrome, Firefox, Safari, Edge, IE9+
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
 
-##Designed and Developed By
+## Designed and Developed By
 Derek Knox | Braindrop Labs
 
 [@derekknox](https://twitter.com/derekknox)
